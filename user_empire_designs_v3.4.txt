@@ -1269,7 +1269,7 @@
 		class="HUM"
 		portrait="human_legacy"
 		species_name={
-			key=" Roman"
+			key="Roman"
 			literal=yes
 		}
 		species_plural={
@@ -1280,6 +1280,9 @@
 			key="Roman"
 			literal=yes
 		}
+		species_bio="The Lost Legion was once a proud unit of the Roman Empire, renowned for its military prowess and unyielding discipline. However, their fate was forever altered during a campaign in an uncharted corner of the galaxy. While on a mission to expand the Roman Empire's territory, the Legion found themselves stranded on an alien world, cut off from the rest of humanity and facing a hostile environment that tested their skills and endurance to their limits. The planet was teeming with alien life, some of which were incredibly aggressive and posed a constant threat to the Legion's survival. The Romans fought bravely, but their numbers dwindled with every passing day, as they struggled to adapt to the harsh conditions and unfamiliar enemies. 
+		
+		As the years went by, the Legion became increasingly xenophobic, viewing all non-humans with suspicion and hostility. Their bitter experiences with war and struggle had left them scarred and paranoid, and they began to see the galaxy as a dangerous and unforgiving place. Now, as they venture forth into the stars once more, the Lost Legion carries with them their deep-seated distrust of all aliens. They are fiercely protective of their own, and will not hesitate to use their battle-hardened skills to defend themselves from any perceived threats."
 		name_list="HUMAN3"
 		gender=not_set
 		trait="trait_very_strong"
@@ -1288,7 +1291,7 @@
 		trait="trait_quarrelsome"
 	}
 	name={
-		key="Imperial Roman Legion"
+		key="Lost Roman Legion"
 		literal=yes
 	}
 	adjective={
