@@ -1179,9 +1179,9 @@
 			key="Morgrot"
 			literal=yes
 		}
-		species_bio="The White Domain originated on a harsh and unforgiving arctic world, where resources were scarce and competition for survival was fierce. Millennia of evolutionary pressure drove the plantoids to become hardy and resilient, capable of enduring extreme temperatures and surviving on very little resources. Over time, the plantoids evolved to form a hive mind, with each individual acting as a small part of a larger, collective consciousness. This hive mind allowed the plantoids to work together in a coordinated fashion, quickly adapting to new environments and devising new tactics to overcome any obstacles in their path.
-		
-		As the White Domain expanded their domain, they became known as a formidable and extremely hostile force in the galaxy. Their aggressive nature and insatiable hunger for resources made them a menace to all other life forms, particularly those that resided in arctic or cold environments.
+		species_bio="The White Domain originated on a harsh and unforgiving arctic world, where resources were scarce and competition for survival was fierce. Millennia of evolutionary pressure drove the plantoids to become hardy and resilient, capable of enduring extreme temperatures and surviving on very little resources. Over time, the plantoids evolved to form a hive mind, with each individual acting as a small part of a larger, collective consciousness. This hive mind allowed the plantoids to work together in a coordinated fashion, quickly adapting to new environments and devising new tactics to overcome any obstacles in their path.
+		
+		As the White Domain expanded their domain, they became known as a formidable and extremely hostile force in the galaxy. Their aggressive nature and insatiable hunger for resources made them a menace to all other life forms, particularly those that resided in arctic or cold environments.
 		"
 		name_list="HIVE2"
 		gender=indeterminable
@@ -1258,141 +1258,6 @@
 		"civic_hive_strength_of_legions"
 	}
 	origin="origin_default"
-}
-"Imperial Roman Legion"={
-	key="Imperial Roman Legion"
-	ship_prefix={
-		key="RSS"
-		literal=yes
-	}
-	species={
-		class="HUM"
-		portrait="human_legacy"
-		species_name={
-			key="Roman"
-			literal=yes
-		}
-		species_plural={
-			key="Roman"
-			literal=yes
-		}
-		species_adjective={
-			key="Roman"
-			literal=yes
-		}
-		species_bio="The Lost Legion was once a proud unit of the Roman Empire, renowned for its military prowess and unyielding discipline. However, their fate was forever altered during a campaign in an uncharted corner of the galaxy. While on a mission to expand the Roman Empire's territory, the Legion found themselves stranded on an alien world, cut off from the rest of humanity and facing a hostile environment that tested their skills and endurance to their limits. The planet was teeming with alien life, some of which were incredibly aggressive and posed a constant threat to the Legion's survival. The Romans fought bravely, but their numbers dwindled with every passing day, as they struggled to adapt to the harsh conditions and unfamiliar enemies. 
-		
-		As the years went by, the Legion became increasingly xenophobic, viewing all non-humans with suspicion and hostility. Their bitter experiences with war and struggle had left them scarred and paranoid, and they began to see the galaxy as a dangerous and unforgiving place. Now, as they venture forth into the stars once more, the Lost Legion carries with them their deep-seated distrust of all aliens. They are fiercely protective of their own, and will not hesitate to use their battle-hardened skills to defend themselves from any perceived threats."
-		name_list="HUMAN3"
-		gender=not_set
-		trait="trait_very_strong"
-		trait="trait_nonadaptive"
-		trait="trait_rapid_breeders"
-		trait="trait_quarrelsome"
-	}
-	name={
-		key="Lost Roman Legion"
-		literal=yes
-	}
-	adjective={
-		key="%ADJ%"
-		variables={
-			{
-				key="adjective"
-				value={
-					key="Roman"
-					literal=yes
-				}
-			}
- 
-		}
-	}
-	authority="auth_imperial"
-	government="gov_despotic_empire"
-	advisor_voice_type="l_xenophobe"
-	planet_name={
-		key="Terra"
-		literal=yes
-	}
-	planet_class="pc_continental"
-	system_name={
-		key="Calidum"
-		literal=yes
-	}
-	initializer="custom_starting_init_03"
-	graphical_culture="nemesis_01"
-	city_graphical_culture="humanoid_01"
-	empire_flag={
-		icon={
-			category="human"
-			file="flag_human_2.dds"
-		}
-		background={
-			category="backgrounds"
-			file="stripe.dds"
-		}
-		colors={
-			"red"
-			"black"
-			"black"
-			"null"
-		}
-	}
-	ruler={
-		gender=male
-		name={
-			full_names={
-				key="%LEADER_1%"
-				variables={
-					{
-						key="1"
-						value={
-							key="HUMAN3_CHR_Octavius"
-						}
-					}
- {
-						key="2"
-						value={
-							key="HUMAN3_CHR_Antonius"
-						}
-					}
- 
-				}
-			}
-		}
-		portrait="human_legacy_male_01"
-		texture=0
-		attachment=6
-		clothes=6
-		ruler_title={
-			key="Imperator"
-			literal=yes
-		}
-		heir_title={
-			key="Consul"
-			literal=yes
-		}
-		ruler_title_female={
-			key="Imperator"
-			literal=yes
-		}
-		heir_title_female={
-			key="Consul"
-			literal=yes
-		}
-		leader_class="ruler"
-	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="personality_democratic_crusaders_room"
-	spawn_enabled=yes
-	ethic="ethic_authoritarian"
-	ethic="ethic_fanatic_xenophobe"
-	civics={
-		"civic_slaver_guilds"
-		"civic_aristocratic_elite"
-	}
-	origin="origin_galactic_doorstep"
 }
 "Galactic Dwarf Guilds"={
 	key="Galactic Dwarf Guilds"
@@ -1721,4 +1586,138 @@
 	}
 	origin="origin_toxic_knights"
 }
-
+"Lost Roman Legion"={
+	key="Lost Roman Legion"
+	ship_prefix={
+		key="RSS"
+		literal=yes
+	}
+	species={
+		class="HUM"
+		portrait="human_legacy"
+		species_name={
+			key="Roman"
+			literal=yes
+		}
+		species_plural={
+			key="Roman"
+			literal=yes
+		}
+		species_adjective={
+			key="Roman"
+			literal=yes
+		}
+		species_bio="The Lost Legion was once a proud unit of the Roman Empire, renowned for its military prowess and unyielding discipline. However, their fate was forever altered during a campaign in an uncharted corner of the galaxy. While on a mission to expand the Roman Empire's territory, the Legion found themselves stranded on an alien world, cut off from the rest of humanity and facing a hostile environment that tested their skills and endurance to their limits. The planet was teeming with alien life, some of which were incredibly aggressive and posed a constant threat to the Legion's survival. The Romans fought bravely, but their numbers dwindled with every passing day, as they struggled to adapt to the harsh conditions and unfamiliar enemies. 
+		
+		As the years went by, the Legion became increasingly xenophobic, viewing all non-humans with suspicion and hostility. Their bitter experiences with war and struggle had left them scarred and paranoid, and they began to see the galaxy as a dangerous and unforgiving place. Now, as they venture forth into the stars once more, the Lost Legion carries with them their deep-seated distrust of all aliens. They are fiercely protective of their own, and will not hesitate to use their battle-hardened skills to defend themselves from any perceived threats."
+		name_list="HUMAN3"
+		gender=not_set
+		trait="trait_very_strong"
+		trait="trait_nonadaptive"
+		trait="trait_rapid_breeders"
+		trait="trait_quarrelsome"
+	}
+	name={
+		key="Lost Roman Legion"
+		literal=yes
+	}
+	adjective={
+		key="%ADJ%"
+		variables={
+			{
+				key="adjective"
+				value={
+					key="Roman"
+					literal=yes
+				}
+			}
+ 
+		}
+	}
+	authority="auth_imperial"
+	government="gov_despotic_empire"
+	advisor_voice_type="l_xenophobe"
+	planet_name={
+		key="Terra"
+		literal=yes
+	}
+	planet_class="pc_continental"
+	system_name={
+		key="Calidum"
+		literal=yes
+	}
+	initializer="custom_starting_init_03"
+	graphical_culture="nemesis_01"
+	city_graphical_culture="humanoid_01"
+	empire_flag={
+		icon={
+			category="human"
+			file="flag_human_2.dds"
+		}
+		background={
+			category="backgrounds"
+			file="stripe.dds"
+		}
+		colors={
+			"red"
+			"black"
+			"black"
+			"null"
+		}
+	}
+	ruler={
+		gender=male
+		name={
+			full_names={
+				key="%LEADER_1%"
+				variables={
+					{
+						key="1"
+						value={
+							key="HUMAN3_CHR_Octavius"
+						}
+					}
+ {
+						key="2"
+						value={
+							key="HUMAN3_CHR_Antonius"
+						}
+					}
+ 
+				}
+			}
+		}
+		portrait="human_legacy_male_01"
+		texture=0
+		attachment=6
+		clothes=6
+		ruler_title={
+			key="Imperator"
+			literal=yes
+		}
+		heir_title={
+			key="Consul"
+			literal=yes
+		}
+		ruler_title_female={
+			key="Imperator"
+			literal=yes
+		}
+		heir_title_female={
+			key="Consul"
+			literal=yes
+		}
+		leader_class="ruler"
+	}
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	room="personality_democratic_crusaders_room"
+	spawn_enabled=yes
+	ethic="ethic_authoritarian"
+	ethic="ethic_fanatic_xenophobe"
+	civics={
+		"civic_slaver_guilds"
+		"civic_aristocratic_elite"
+	}
+	origin="origin_lost_colony"
+}
