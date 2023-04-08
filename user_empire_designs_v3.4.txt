@@ -1,7 +1,7 @@
 "Jotunn Interstellar"={
 	key="Jotunn Interstellar"
 	ship_prefix={
-		key="SSC"
+		key="SSCS"
 		literal=yes
 	}
 	species={
